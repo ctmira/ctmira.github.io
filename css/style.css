@@ -78,7 +78,6 @@ header {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	color: #191970;
 	text-align: center;
 	padding: 20px;
 	padding-bottom: 40px;
@@ -94,8 +93,8 @@ header h1 {
 
 header p {
 	margin-bottom: 2em;
-	color: #FFFFFF;
-	text-shadow: 2px 2px 3px #800080;
+	color: #191970;
+	text-shadow: 2px 2px 3px #FFFFFF;
 }
 
 /* SOBRE */

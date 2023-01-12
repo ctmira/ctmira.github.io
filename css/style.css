@@ -137,6 +137,11 @@ header p {
 	background-color: #FFFFFF;
 }
 
+#serviços>p {
+	text-align: center;
+	margin: 0px 20px 0px 20px;
+}
+
 #serviços h2 {
 	color: #800080;
 }
@@ -153,28 +158,47 @@ header p {
 	justify-content: space-around;
 	align-content: center;
 	align-items: center;
-	flex-wrap: wrap;
 	padding: 5px;
 }
 
 .pacote {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	text-align: center;
-	width: 320px;
-	height: 400px;
-	padding: 10px;
+	justify-content: center;
+	height: 100%;
+	width: 25%;
+	padding: 20px 10px 20px 10px;
 	margin: 20px 20px 0px 20px;
 	box-shadow: 5px 5px 15px #66cccc;
 	background-color: #FFFFFF;
+	flex-grow: 1;
+}
+
+.texto-pacote {
+	font-family: Asap, sans-serif;
+}
+
+.texto-pacote p {
+	text-align: center;
+	margin: unset;
+}
+
+.lista-festa {
+	list-style-type: disc;
+	list-style-image: url("../img/list.png");
+	text-align: justify;
+	margin: 15px 20px 0px 0px;
+	font-size: 0.8em;
+}
+
+.personalizado {
+	flex-grow: 2;
 }
 
 .pacote img {
+	display: block;
 	width: 100%;
-	max-width: 240px;
-	height: 100%;
-	max-height: 200px;
+	height: 200px;
 	position: relative;
 }
 
@@ -346,6 +370,10 @@ footer p {
 	/* SERVICOS */
 	#serviços .pacotes {
 		flex-direction: column;
+	}
+
+	.pacote{
+		width: 80%;
 	}
 
 	/* FOTOS */

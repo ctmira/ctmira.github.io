@@ -88,7 +88,7 @@ header h1 {
 	font-family: Parisienne, serif;
 	font-size: 45px;
 	margin: 45;
-	text-shadow: 5px 5px 5px #FFFFFF;
+	text-shadow: 1px 3px 2px #FFFFFF;
 }
 
 header p {
@@ -157,7 +157,7 @@ header p {
 	flex-direction: row;
 	justify-content: space-around;
 	align-content: center;
-	align-items: center;
+	align-items: baseline;
 	padding: 5px;
 }
 
@@ -175,7 +175,10 @@ header p {
 }
 
 .texto-pacote {
+	display: flex;
+	flex-direction: column;
 	font-family: Asap, sans-serif;
+	align-items: center;
 }
 
 .texto-pacote p {
@@ -185,9 +188,8 @@ header p {
 
 .lista-festa {
 	list-style-type: disc;
-	list-style-image: url("../img/list.png");
 	text-align: justify;
-	margin: 15px 20px 0px 0px;
+	margin: 10px 20px 0px 0px;
 	font-size: 0.8em;
 }
 

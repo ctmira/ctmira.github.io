@@ -159,7 +159,7 @@ header p {
 	flex-direction: row;
 	justify-content: space-around;
 	align-content: center;
-	align-items: baseline;
+	align-items: center;
 	padding: 5px;
 }
 
